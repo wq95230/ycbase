@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-/**
- * 滚动菜单封装
- */
+/// 滚动菜单封装
 
 class SPPageMenu extends StatefulWidget {
   final TabController tabController;
@@ -67,12 +65,10 @@ class _SPPageMenuState extends State<SPPageMenu> {
     List<Widget> tabList = []; //tab指示器
 
     //标题数组
-    if(widget.tabs != null) {
-      tabList = widget.tabs!.map((e) => Tab(
-        text: e,
-        height: widget.tabHeight,
-      )).toList();
-    }
+    tabList = widget.tabs.map((e) => Tab(
+      text: e,
+      height: widget.tabHeight,
+    )).toList();
 
     return Container(
       color: widget.color,
