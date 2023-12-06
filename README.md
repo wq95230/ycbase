@@ -1,6 +1,6 @@
 
 ## baseWidget
-start using the package.
+随便写的几个基类文件
 
 ## Usage
 
@@ -10,6 +10,5 @@ to `/example` folder.
 const like = 'sample';
 ```
 
-## Additional information
 
 
