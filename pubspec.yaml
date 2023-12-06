@@ -1,7 +1,7 @@
-name: ycdb
-description: A new Flutter package project.
-version: 0.0.1
-homepage: https://github.com/wq95230/ycbase
+name: ycbase
+description: something baseWidget
+version: 0.0.2
+homepage: https://github.com/wq95230/ycbase.git
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
