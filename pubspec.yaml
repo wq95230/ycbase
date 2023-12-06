@@ -1,6 +1,6 @@
 name: ycbase
 description: something baseWidget
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/wq95230/ycbase.git
 
 environment:
