@@ -12,6 +12,8 @@ export 'src/ycbase_text.dart';
 //保活
 export 'src/keep_alive_page.dart';
 
+export 'src/ycbase_image.dart';
+
 
 /// A Calculator.
 class Calculator {
